@@ -4,7 +4,7 @@
 
 ; string of all lowercase characters in the specified file
 (def processed-file
-  (clojure.string/lower-case (slurp (clojure.java.io/resource "<FILENAME IN RESOURCES FOLDER GOES HERE>.txt"))))
+  (clojure.string/lower-case (slurp (clojure.java.io/resource "trainingtext.txt"))))
 
 ; a list of all the words in the above string from the file
 (def list-of-words
@@ -40,7 +40,7 @@
 (defn send-request [text]
   (client/post "https://api.groupme.com/v3/bots/post"
                {:basic-auth         ["user" "pass"]
-                :body               (str "{\"bot_id\": \"<GROUPME BOT ID GOES HERE>\", \"text\": \"" text "\"}")
+                :body               (str "{\"bot_id\": \"<GROUPMEBOTID>\", \"text\": \"" text "\"}")
                 :headers            {"X-Api-Version" "2"}
                 :content-type       :json
                 :socket-timeout     1000                    ;; in milliseconds

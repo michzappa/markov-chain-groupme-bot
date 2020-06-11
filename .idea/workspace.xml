@@ -19,17 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e9ec4a-823d-4279-b6d2-12503b35c11c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/michzappa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fifty-shades-clj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/markov-chain-groupme-bot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fifty_shades_clj/generator.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/markov_chain_groupme_bot/generator.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fifty_shades_clj/handler.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/markov_chain_groupme_bot/handler.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fifty_shades_clj/handler_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/markov_chain_groupme_bot/handler_test.clj" afterDir="false" />
+    <list default="true" id="15e84c93-e2ab-4bd4-a049-12cb2d4e35d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/trainingtext.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markov-chain-groupme-bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/markov-chain-groupme-bot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markov_chain_groupme_bot/generator.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/markov_chain_groupme_bot/generator.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1dBGp5zBjD0lK0eedtCWnvNniax" />
+  <component name="ProjectId" id="1dBJz47Os9GkrxJWhK23QvzuRkT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,10 +45,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="ReplState" timestamp="1591892094385">{:repl-history {:ide [], :local [{:command &quot;(make-text \&quot;hello\&quot;)&quot;, :offset 17, :ns &quot;markov-chain-groupme-bot.generator&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(make-text )&quot;, :offset 11, :ns &quot;markov-chain-groupme-bot.generator&quot;} {:command &quot;(make-text)&quot;, :offset 11, :ns &quot;markov-chain-groupme-bot.generator&quot;}], :remote []}}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1591893136161">{:repl-history {:ide [], :local [{:command &quot;(make-text)&quot;, :offset 10, :ns &quot;markov-chain-groupme-bot.generator&quot;}], :remote []}}</component>
   <component name="RunManager">
     <configuration name="REPL for markov-chain-groupme-bot" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
       <module name="markov-chain-groupme-bot" />
@@ -96,12 +98,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f9e9ec4a-823d-4279-b6d2-12503b35c11c" name="Default Changelist" comment="" />
-      <created>1591891252840</created>
+      <changelist id="15e84c93-e2ab-4bd4-a049-12cb2d4e35d5" name="Default Changelist" comment="" />
+      <created>1591892811386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591891252840</updated>
-      <workItem from="1591891255640" duration="839000" />
+      <updated>1591892811386</updated>
+      <workItem from="1591892812520" duration="51000" />
+      <workItem from="1591892869264" duration="267000" />
     </task>
     <servers />
   </component>
@@ -118,5 +121,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2663" y="221" width="428" height="639" key="FileChooserDialogImpl" timestamp="1591892844946">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="221" width="428" height="639" key="FileChooserDialogImpl/0.0.1920.1043/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591892844946" />
+    <state x="2162" y="386" width="1429" height="310" key="NewModule_or_Project.wizard" timestamp="1591892832136">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2162" y="386" width="1429" height="310" key="NewModule_or_Project.wizard/0.0.1920.1043/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591892832136" />
   </component>
 </project>
