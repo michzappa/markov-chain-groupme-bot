@@ -4,7 +4,7 @@
             [clj-http.client :as client]
             [ring.middleware.json :refer [wrap-json-response wrap-json-body]]
             [cheshire.core :refer :all]
-            [fifty-shades-clj.generator :as generator]))
+            [markov-chain-groupme-bot.generator :as generator]))
 
 ; body going into here is a map (JSON object)
 (defn received-message [body]
